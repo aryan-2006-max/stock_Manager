@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
-import { useAuth } from 'https://stock-manager-xa32.onrender.com/context/AuthContext';
+import { useAuth } from '../context/AuthContext';
 
 const links = [
   { to: '/',             label: 'Dashboard',    end: true  },
