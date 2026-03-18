@@ -3,7 +3,7 @@ import {
   AreaChart, Area, XAxis, YAxis,
   CartesianGrid, Tooltip, ResponsiveContainer,
 } from 'recharts';
-import api from '../api/axios';
+import api from 'https://stock-manager-xa32.onrender.com/api/axios';
 
 const INTERVAL_OPTS = [
   { value: 'daily',  label: '30D' },
