@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import api from 'srv-d6tc556uk2gs738o5ijg/api/axios';
+import api from 'https://stock-manager-xa32.onrender.com/api/axios';
 
 export default function AddStockModal({ onClose, onSuccess }) {
   const [form, setForm]               = useState({ symbol: '', company_name: '', quantity: '', price: '' });
