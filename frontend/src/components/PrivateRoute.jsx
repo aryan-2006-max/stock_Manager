@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navigate } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from 'https://stock-manager-xa32.onrender.com/context/AuthContext';
 
 const Spinner = () => (
   <div className="flex items-center justify-center min-h-screen bg-slate-900">
